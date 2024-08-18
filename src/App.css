@@ -1,0 +1,44 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  background: radial-gradient(ellipse at center, #1b2735 0%, #090a0f 100%);
+  color: white;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: rgb(150, 197, 85);
+}
+
+.countdown {
+  display: flex;
+}
+
+.countdown .time {
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  margin: 0 15px;
+}
+
+.countdown .time div {
+  width: 150px;
+  height: 100px;
+  background-color: #222;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-size: 36px;
+}
+
+p {
+  margin: 6px;
+}
