@@ -3,7 +3,7 @@ import './App.css';
 import './GalaxyBackground.css'; // Import the galaxy background styles
 
 export default function App() {
-  const newYear = new Date("Jan 1, 2026").getTime();
+  const newYear = new Date("Jan 1, 2025").getTime();
   const [days, setDays] = useState(0);
   const [hours, setHours] = useState(0);
   const [minutes, setMinutes] = useState(0);
